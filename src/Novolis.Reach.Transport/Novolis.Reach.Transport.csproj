@@ -2,7 +2,7 @@
   <PropertyGroup>
     <PackageId>Novolis.Reach.Transport</PackageId>
     <RootNamespace>Novolis.Reach.Transport</RootNamespace>
-    <IsPackable>true</IsPackable>
+    <IsPackable>false</IsPackable>
     <Description>Reach datagram codec over Novolis transports.</Description>
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
   </PropertyGroup>

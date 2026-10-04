@@ -4,7 +4,7 @@
     <EnableWindowsTargeting>true</EnableWindowsTargeting>
     <PackageId>Novolis.Reach.Host.Windows.Session</PackageId>
     <RootNamespace>Novolis.Reach.Host.Windows.Session</RootNamespace>
-    <IsPackable>true</IsPackable>
+    <IsPackable>false</IsPackable>
     <Description>Reach interactive-session capture helper for Windows.</Description>
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
   </PropertyGroup>

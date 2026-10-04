@@ -4,7 +4,7 @@
     <EnableWindowsTargeting>true</EnableWindowsTargeting>
     <PackageId>Novolis.Reach.Host.Server</PackageId>
     <RootNamespace>Novolis.Reach.Host.Server</RootNamespace>
-    <IsPackable>true</IsPackable>
+    <IsPackable>false</IsPackable>
     <Description>Headless Reach host service that accepts remote clients and bridges the interactive session.</Description>
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
   </PropertyGroup>

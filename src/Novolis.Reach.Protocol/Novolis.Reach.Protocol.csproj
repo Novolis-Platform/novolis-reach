@@ -2,7 +2,7 @@
   <PropertyGroup>
     <PackageId>Novolis.Reach.Protocol</PackageId>
     <RootNamespace>Novolis.Reach.Protocol</RootNamespace>
-    <IsPackable>true</IsPackable>
+    <IsPackable>false</IsPackable>
     <Description>Reach protocol messages, session machine, and wire types.</Description>
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
   </PropertyGroup>

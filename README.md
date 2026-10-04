@@ -1,24 +1,12 @@
-# novolis-reach
+# novolis-reach (archived)
 
-Headless Reach protocol, transport, client session, and Windows host libraries
-for the Novolis platform. Product executables stay in `novolis-apps`.
+Reach is a product in `novolis-apps`. This repository is archived.
 
-## Packages
+Generic algorithms now live in:
 
-| Package | Purpose |
-|---|---|
-| `Novolis.Reach.Protocol` | Messages, session machine, and wire types |
-| `Novolis.Reach.Transport` | Datagram codec over Novolis transports |
-| `Novolis.Reach.Client` | Headless client session (no Avalonia) |
-| `Novolis.Reach.Host.Server` | Headless host service that accepts clients |
-| `Novolis.Reach.Host.Windows.Session` | Interactive-session capture helper (`net10.0-windows`) |
+- `Novolis.Video.Abstractions` — fit, stream gate, adaptive profile, pipeline metrics
+- `Novolis.Transports.Datagrams` — fragment reassembly
+- `Novolis.Avalonia.Video` — raw-frame letterbox surface
 
-Avalonia chrome lives in `Novolis.Avalonia.Reach`.
-
-## Run the product hosts
-
-```powershell
-dotnet run --project d:\novolis\novolis-apps\src\Reach\Reach.Host.Windows.Service\Reach.Host.Windows.Service.csproj -p:NovolisUseProjectReferences=true
-dotnet run --project d:\novolis\novolis-apps\src\Reach\Reach.Host.Windows\Reach.Host.Windows.csproj -p:NovolisUseProjectReferences=true
-dotnet run --project d:\novolis\novolis-apps\src\Reach\Reach.Client.Windows\Reach.Client.Windows.csproj -p:NovolisUseProjectReferences=true
-```
+Product-private protocol, RCHD codec, client session, hosts, and Avalonia chrome
+live under `d:\novolis\novolis-apps\src\Reach`.

@@ -2,7 +2,7 @@
   <PropertyGroup>
     <PackageId>Novolis.Reach.Client</PackageId>
     <RootNamespace>Novolis.Reach.Client</RootNamespace>
-    <IsPackable>true</IsPackable>
+    <IsPackable>false</IsPackable>
     <Description>Headless Reach client session, discovery, and video/audio presenter contracts.</Description>
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
   </PropertyGroup>
