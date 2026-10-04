@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net10.0-windows10.0.19041.0</TargetFramework>
+    <EnableWindowsTargeting>true</EnableWindowsTargeting>
+    <PackageId>Novolis.Reach.Host.Windows.Session</PackageId>
+    <RootNamespace>Novolis.Reach.Host.Windows.Session</RootNamespace>
+    <IsPackable>true</IsPackable>
+    <Description>Reach interactive-session capture helper for Windows.</Description>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Novolis.Reach.Protocol\Novolis.Reach.Protocol.csproj" />
+    <PackageReference Include="Microsoft.Extensions.Hosting.Abstractions" />
+    <PackageReference Include="Microsoft.Extensions.Logging.Abstractions" />
+    <PackageReference Include="NAudio" />
+    <LibraryReference Include="Novolis.Transports.Framing" />
+    <LibraryReference Include="Novolis.Transports.LocalIpc" />
+    <LibraryReference Include="Novolis.Video.Abstractions" />
+    <LibraryReference Include="Novolis.Video.Capture.Windows" />
+    <LibraryReference Include="Novolis.Video.Codecs.H264" />
+    <LibraryReference Include="Novolis.Windows.Audio" />
+    <LibraryReference Include="Novolis.Windows.Clipboard" />
+    <LibraryReference Include="Novolis.Windows.Display" />
+    <LibraryReference Include="Novolis.Windows.Input" />
+  </ItemGroup>
+</Project>

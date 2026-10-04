@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net10.0-windows10.0.19041.0</TargetFramework>
+    <EnableWindowsTargeting>true</EnableWindowsTargeting>
+    <PackageId>Novolis.Reach.Host.Server</PackageId>
+    <RootNamespace>Novolis.Reach.Host.Server</RootNamespace>
+    <IsPackable>true</IsPackable>
+    <Description>Headless Reach host service that accepts remote clients and bridges the interactive session.</Description>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Novolis.Reach.Protocol\Novolis.Reach.Protocol.csproj" />
+    <ProjectReference Include="..\Novolis.Reach.Transport\Novolis.Reach.Transport.csproj" />
+    <PackageReference Include="Microsoft.Extensions.Hosting.Abstractions" />
+    <PackageReference Include="Microsoft.Extensions.Logging.Abstractions" />
+    <LibraryReference Include="Novolis.Transports.Datagrams" />
+    <LibraryReference Include="Novolis.Transports.Discovery" />
+    <LibraryReference Include="Novolis.Transports.Framing" />
+    <LibraryReference Include="Novolis.Transports.LocalIpc" />
+    <LibraryReference Include="Novolis.Transports.Quic" />
+    <LibraryReference Include="Novolis.Transports.Tcp" />
+    <LibraryReference Include="Novolis.Transports.Tailscale" />
+    <LibraryReference Include="Novolis.Transports.Udp" />
+    <LibraryReference Include="Novolis.Windows.Sessions" />
+  </ItemGroup>
+</Project>

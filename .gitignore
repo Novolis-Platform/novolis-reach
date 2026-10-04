@@ -1,0 +1,15 @@
+bin/
+obj/
+artifacts/
+.vs/
+*.user
+*.suo
+.DS_Store
+# MTP / VS test output
+TestResults/
+[Tt]est[Rr]esults/
+# JetBrains / Rider
+.idea/
+**/.idea/
+DotSettings.*
+*.DotSettings.user

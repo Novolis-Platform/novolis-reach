@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <PackageId>Novolis.Reach.Transport</PackageId>
+    <RootNamespace>Novolis.Reach.Transport</RootNamespace>
+    <IsPackable>true</IsPackable>
+    <Description>Reach datagram codec over Novolis transports.</Description>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Novolis.Reach.Protocol\Novolis.Reach.Protocol.csproj" />
+    <LibraryReference Include="Novolis.Transports.Abstractions" />
+    <LibraryReference Include="Novolis.Transports.Quic" />
+    <LibraryReference Include="Novolis.Transports.Tcp" />
+    <LibraryReference Include="Novolis.Transports.Udp" />
+    <LibraryReference Include="Novolis.Transports.Framing" />
+  </ItemGroup>
+</Project>

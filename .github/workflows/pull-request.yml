@@ -1,0 +1,14 @@
+name: Pull request
+on:
+  pull_request:
+    branches: [main]
+concurrency:
+  group: pr-${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+jobs:
+  ci:
+    uses: Novolis-Platform/novolis-workflows/.github/workflows/dotnet-pull-request.yml@main
+    secrets: inherit
+    permissions:
+      contents: read
+      packages: read

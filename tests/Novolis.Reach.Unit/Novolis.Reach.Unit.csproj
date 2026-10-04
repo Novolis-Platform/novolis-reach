@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <RootNamespace>Novolis.Reach.Unit</RootNamespace>
+    <IsPackable>false</IsPackable>
+    <IsTestProject>true</IsTestProject>
+    <GenerateDocumentationFile>false</GenerateDocumentationFile>
+    <NoWarn>$(NoWarn);CS1591</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="TUnit" />
+    <ProjectReference Include="..\..\src\Novolis.Reach.Protocol\Novolis.Reach.Protocol.csproj" />
+    <ProjectReference Include="..\..\src\Novolis.Reach.Transport\Novolis.Reach.Transport.csproj" />
+    <ProjectReference Include="..\..\src\Novolis.Reach.Client\Novolis.Reach.Client.csproj" />
+    <LibraryReference Include="Novolis.Transports.Framing" />
+  </ItemGroup>
+</Project>

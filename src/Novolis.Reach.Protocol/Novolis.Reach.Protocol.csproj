@@ -1,0 +1,9 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <PackageId>Novolis.Reach.Protocol</PackageId>
+    <RootNamespace>Novolis.Reach.Protocol</RootNamespace>
+    <IsPackable>true</IsPackable>
+    <Description>Reach protocol messages, session machine, and wire types.</Description>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+  </PropertyGroup>
+</Project>

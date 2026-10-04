@@ -1,0 +1,12 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/Novolis.Reach.Protocol/Novolis.Reach.Protocol.csproj" />
+    <Project Path="src/Novolis.Reach.Transport/Novolis.Reach.Transport.csproj" />
+    <Project Path="src/Novolis.Reach.Client/Novolis.Reach.Client.csproj" />
+    <Project Path="src/Novolis.Reach.Host.Server/Novolis.Reach.Host.Server.csproj" />
+    <Project Path="src/Novolis.Reach.Host.Windows.Session/Novolis.Reach.Host.Windows.Session.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/Novolis.Reach.Unit/Novolis.Reach.Unit.csproj" />
+  </Folder>
+</Solution>
